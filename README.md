@@ -31,15 +31,6 @@ public/
    ```
 4. Buka `http://localhost:8000` lalu coba tambah, edit, dan hapus entri.
 
-## Deploy ke Hosting (Shared Hosting / VPS)
-1. Buat database dan user di hosting, simpan host, nama DB, user, password.
-2. Unggah file project:
-   - Pastikan `public/` dijadikan document root (pada shared hosting seringnya `public_html/`).
-   - Jika tidak bisa ubah document root, pindahkan isi `public/` ke `public_html/` dan sesuaikan path CSS/link jika perlu.
-3. Update `config/config.php` dengan kredensial DB hosting Anda.
-4. Import `config/schema.sql` melalui phpMyAdmin hosting.
-5. Akses domain Anda, aplikasi siap.
-
 ## Catatan Keamanan dan Praktik Baik
 - Form menggunakan CSRF token via session.
 - Query menggunakan prepared statements (PDO) untuk mencegah SQL Injection.
