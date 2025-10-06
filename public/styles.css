@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: #f6f7f9; color: #111; }
+.container { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+h1 { margin: 8px 0 16px; }
+.form-section, .list-section { background: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); margin-bottom: 16px; }
+.field { margin-bottom: 12px; display: flex; flex-direction: column; }
+label { font-weight: 600; margin-bottom: 6px; }
+input[type="text"], input[type="email"], textarea { padding: 10px; border: 1px solid #d0d7de; border-radius: 6px; background: #fff; }
+.actions { margin-top: 8px; }
+button { background: #0969da; color: #fff; border: none; padding: 10px 14px; border-radius: 6px; cursor: pointer; }
+button.danger { background: #d1242f; }
+.alert { padding: 10px 12px; border-radius: 6px; margin-bottom: 12px; }
+.alert-error { background: #fee2e2; color: #7f1d1d; }
+.alert-success { background: #dcfce7; color: #14532d; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
